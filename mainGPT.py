@@ -1,7 +1,6 @@
 import os
 import time
 import openai
-import requests
 from dotenv import load_dotenv
 from telebot import telebot, types
 import logging
