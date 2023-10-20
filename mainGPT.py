@@ -1,11 +1,10 @@
 import os
 import time
 import openai
-from requests import status_codes
 from dotenv import load_dotenv
 from telebot import telebot, types
 import logging
-from logging.handlers import RotatingFileHandler
+
 
 load_dotenv()
 BOT_TOKEN = os.getenv('TELEGRAM_TOKEN')
